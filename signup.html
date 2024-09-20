@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/sign.css">
+    <title>signup</title>
+</head>
+<body>
+   <div class="container">
+    <div class="parent">
+         <h1 class=" text-center">Smart Login System</h1>
+         <div class="alert alert-danger d-none" id="alert">this email is already exists</div>
+         <form class=" d-flex flex-column">
+            <input id="input-name" type="text" placeholder="enter your name">
+            <input id="input-email" class=" my-3" type="email" placeholder="Enter your email">
+            <input id="input-pass" type="password" placeholder="Enter your password">
+            <button type="button" onclick="signup()" class=" my-5">sign up</button>
+         </form>
+         <span class=" text-light d-flex justify-content-center">You have an account?<a class=" text-light text-decoration-none mx-1" href="./login.html">Sign in</a></span>
+    </div>
+   </div>
+
+   <script src="./sign.js"></script>
+</body>
+</html>
